@@ -541,7 +541,7 @@ header ul {
 }
 }
 /* Tablets */
-@media (min-width: 769px) and (max-width: 991px) {
+@media only screen and (min-width: 769px) and (max-width: 991px) {
   .mobile {
     display: none;
   }
@@ -559,7 +559,7 @@ header ul {
 }
 
 /* Desktop */
-@media (min-width: 992px) {
+@media only screen and (min-width: 992px) {
   .mobile {
     display: none;
   }
