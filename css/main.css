@@ -62,38 +62,50 @@ main h1 {
 .p_titre {
   padding: 20px;
 }
-.formi {
+.formulaire {
   display: flex;
   height: 50px;
   align-items: center;
   padding: 20px;
 }
-.formi span {
+.formulaire span {
   cursor: pointer;
 }
-.formi a {
+.formulaire a {
   text-decoration: none;
   font-family: raleway;
   color: white;
   font-weight: bold;
 }
-.formi i {
+.formulaire i {
   color: black;
   display: flex;
   justify-content: center;
   align-items: center;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
-  background-color: #f2f2f2;
   width: 50px;
   height: 50px;
   text-decoration: none;
 }
-.formi input {
+.formulaire_search {
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+  background-color:#f2f2f2;
+}
+.formulaire input {
   height: 50px;
   border-color: #f2f2f2 !important;
   text-decoration: none;
   border: 2px solid;
+  padding-left: 15px;
 }
 button {
   margin-left: -2px;
@@ -430,6 +442,26 @@ button {
   .desktop {
     display: none;
   }
+  button {
+    margin-left: -2px;
+    color: white;
+    border: none;
+    width: 50px;
+  }
+  .formulaire i {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    width: auto;
+    height: 50px;
+    text-decoration: none;
+}
+.mobile i {
+  color: white;
+}
   .filtres {
     flex-wrap: wrap;
     align-content: flex-start;
@@ -445,8 +477,7 @@ button {
     display: flex;
     flex-wrap: wrap;
     list-style-type: none;
-    
-  }
+}
   .filtres ul li {
     margin-left: -10px;
     margin-right: 40px;
