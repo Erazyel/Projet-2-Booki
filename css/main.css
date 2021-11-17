@@ -192,6 +192,7 @@ button {
   margin-left: 40px;
   width: 100%;
   text-decoration: none;
+  color:black;
 }
 .container {
   display: flex;
@@ -365,11 +366,6 @@ button {
   border-radius: 15px 0 0 15px;
   overflow: hidden;
   padding: 5px;
-}
-.act {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
 }
 .infos-footer {
   background-color: #f2f2f2;
@@ -601,6 +597,9 @@ button {
 @media only screen and (min-width: 769px) and (max-width: 991px) {
   .mobile {
     display: none;
+  }
+  .carte {
+    width: 250px;
   }
   .cartes_hebergement_bloc {
     display: flex;
