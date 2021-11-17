@@ -320,12 +320,17 @@ button {
 }
 .carte_activité_simple {
   width: 400px;
-  height: 200px;
   box-shadow: 0px 4px 10px #d5d5d5;
   border-radius: 15px;
   margin-bottom: 15px;
   margin-top: 15px;
   position: relative;
+}
+#premiere_image {
+  height:200px;
+}
+#seconde_image {
+  height:120px;
 }
 .carte_activité_simple img {
   width: 100%;
@@ -373,24 +378,25 @@ button {
 .infos-footer a {
   text-decoration: none;
   color: black;
-  font-weight: bold;
+  font-weight: 400;
 }
 .content-footer {
   font-family: raleway;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  justify-content: space-between;
   padding: 10px 50px;
   align-items: center;
 }
 .propos {
   display: flex;
   flex-direction: column;
+  margin-right: 400px;
 }
 .heberg {
   display: flex;
   flex-direction: column;
+  margin-right: 400px;
 }
 .assistance {
   display: flex;
