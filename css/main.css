@@ -110,7 +110,7 @@ button {
   align-items: center;
 }
 .filtres h3 {
-  padding: 20px;
+  padding: 0 20px 0 20px;
 }
 .filtres ul i {
   color: #0065fc;
@@ -160,7 +160,7 @@ button {
   justify-content: center;
   align-items: center;
   margin-right: 10px;
-  width: 45px;
+  width: 30px;
   height: 30px;
   border: solid #f2f2f2;
   border-radius: 30px;
@@ -394,16 +394,25 @@ button {
   main {
     padding: 0;
   }
+  main h2 {
+    padding: 20px;
+  }
+.p_titre {    
+  padding: 0 20px 0 20px;}
+  header ul li {
+    position: unset;
+    width: 200px;
+  }
+  header ul li:hover {
+    border-bottom: #0065FC solid 4px;
+    border-top: none;
+  }
   header ul a:hover {
     border-top: none;
-    border-bottom: solid #3d65fc 4px;
+    border-bottom: none;
     cursor: pointer;
     transition: 1s;
     padding-bottom: 10px;
-  }
-  header ul li {
-    position: unset;
-    width: 125px;
   }
   header a {
     background-color: transparent;
@@ -436,7 +445,7 @@ button {
     display: flex;
     flex-wrap: wrap;
     list-style-type: none;
-    padding: 20px;
+    
   }
   .filtres ul li {
     margin-left: -10px;
@@ -538,6 +547,18 @@ button {
     width: 100%;
     height: auto;
   }
+  footer {
+    flex-direction: column;
+  }
+  .content-footer {
+    padding: 10px 50px;
+    display: inline-block;
+}
+.infos-footer a {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+}
 }
 /* Tablets */
 @media only screen and (min-width: 769px) and (max-width: 991px) {
