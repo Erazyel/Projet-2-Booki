@@ -409,7 +409,7 @@ main h1 {
 
 @media only screen and (max-width: 768px) {
   body {
-    margin: auto;
+    margin: 0 auto;
   }
   main {
     padding: 0;
@@ -633,13 +633,12 @@ main h1 {
     width: auto;
   }
   .cartes_populaires_global {
-    width: 100%;
-  }
-  .cartes_activite_global {
-    display: flex;
-    flex-direction: column;
-
-  }
+    width: 35%;
+}
+.cartes_activite_global {
+  display: flex;
+  flex-direction: row;
+}
   .cartes_hebergement_global {
     background-color: #f2f2f2;
     border-radius: 15px;
@@ -651,4 +650,17 @@ main h1 {
     justify-content: space-evenly;
     padding: 20px;
   }
+  .button {
+    margin-left: -2px;
+    background-color: #0065fc;
+    width: 120px;
+    height: 50px;
+    color: white;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 }
